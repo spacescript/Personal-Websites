@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saproling Calculator</title>
+    <link rel="stylesheet" href="sap1.css">
+</head>
+<body>
+     <div class="container">    
+         <h1>Saproling Counter</h1>
+         <img src="Saproling Crop 2.JPG" alt="" class="sapImage">
+         <div class="topInputs">
+             <div class="nestInput">
+                <h3>Set Number of Nests:</h3>
+                <h4 id="nest-number">0</h4>
+                <input id = "nest-input" class="nestInput" type="number" min="0" max= "50" step="1" placeholder="Enter a number...">
+                <h4 class="nestDisplay">Current Number of Nests: <span id = "nestDisplay"></span>0</h4>
+             </div>
+             <div class="roundsInput">
+                 <h3>Set Number of Rounds:</h3>
+                 <input class="roundInput" type="number" min="0" max= "50" step="1" placeholder="Enter a number...">
+                 <h4 class="roundDisplay">Current Number of Rounds: <span id = "roundDisplay"></span>0</h4>
+             </div>
+         </div>
+         <div class="bottomInputs">
+             <h2>Battle Progress</h2>
+             <h4>Add a round: <button id="roundBtn">+</button></h4>
+             <h4>Burn a nest: <button id="nestBtn">-</button></h4>
+             <h4>Kill a saproling: <button id="killBtn">-</button></h4>
+             <h4>Kill a neo-formed saproling: <button id="killNeoBtn">-</button></h4>
+         </div>
+         <div class="outputs">
+             <h2 class="totalSapOutput">Total Saprolings: <span id="totalSapOutput">0</span> </h2>
+             <h3 class="sapOutput">Saprolings: <span id="sapOutput">0</span> </h3>
+             <h3 class="neoSapOutput">Neo-formed Saprolings: <span id="neoSapOutput">0</span> </h3>
+         </div>
+     </div>
+     <script src="sap1.js"></script>
+</body>
+</html>
