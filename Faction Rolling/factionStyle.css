@@ -26,6 +26,10 @@ body {
     width: 50%;
 }
 
+.rollKey {
+    margin: 10px;
+}
+
 table {
     width: 400px;
 }
@@ -35,10 +39,12 @@ table, th, td {
     border: 1px solid #fff;
 }
 
-
+th, td {
+    font-size: large;
+}
 
 .purpleClass {
-    background-color: rgb(99, 67, 131);
+    background-color: rgb(111, 83, 138);
 }
 
 .blueClass {
