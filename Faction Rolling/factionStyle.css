@@ -22,25 +22,8 @@ body {
 }
 
 .dicePic {
-    height: 50%;
-    width: 50%;
-}
-
-.rollKey {
-    margin: 10px;
-}
-
-table {
-    width: 400px;
-}
-
-table, th, td {
-    color: white;
-    border: 1px solid #fff;
-}
-
-th, td {
-    font-size: large;
+    height: 450px;
+    width: 450px;
 }
 
 .purpleClass {
@@ -66,3 +49,21 @@ th, td {
 .redClass {
     background-color: rgb(173, 60, 60);
 }
+
+.rollKey {
+    margin: 10px;
+}
+
+.rollKey table {
+    width: 400px;
+}
+
+.rollKey table, th, td {
+    color: white;
+    border: 1px solid #fff;
+}
+
+.rollKey th, td {
+    font-size: large;
+}
+
