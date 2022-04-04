@@ -3,15 +3,17 @@
 const nestInput = document.getElementById("nest-input");
 const nestNumber = document.getElementById("nest-number");
 const nestDisplay = document.getElementById('nestDisplay');
+const updaters = document.querySelectorAll('.updater')
 
-if(nestInput.addEventListener){
-    nestInput.addEventListener("submit", nestUpdate(), false);
-} else if (nestInput.attchEvent){
-    nestInput.attachEvent('onsubmit', nestUpdate());
-}
+// For updating text
+var newNestDisplay = document.createTextNode("234");
+nestDisplay.appendChild(newNestDisplay);
 
-function nestUpdate(){
-    nestNumber = nestInput;
+//Updater for all of the "enter" buttons
+function update() {
+    updaters.addEventListener('click', () => {
+        
+    })
 }
 
 // nestNumber.innerText = "12";
