@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Caveat', serif;
+    font-family: 'Anek Odia', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
